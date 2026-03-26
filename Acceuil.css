@@ -1,0 +1,159 @@
+/* static/Acceuil.css - JetPasCher PRO */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --primary-blue: #1e40af;
+    --gradient-main: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #1d4ed8 100%);
+    --success-green: #059669;
+    --danger-red: #dc2626;
+    --shadow-lg: 0 25px 50px -12px rgba(0,0,0,0.25);
+    --shadow-sm: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+body { 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+    background: var(--gradient-main);
+    min-height: 100vh;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* CONTAINER RESPONSIVE */
+.container { 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+/* HEADER PREMIUM */
+.header { 
+    text-align: center; 
+    color: white; 
+    padding: 60px 0 40px;
+    position: relative;
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+    border-radius: 2px;
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+.logo-img {
+    height: 60px;
+    width: auto;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
+}
+.logo { 
+    font-size: clamp(2.5rem, 5vw, 4rem); 
+    font-weight: 900; 
+    background: linear-gradient(135deg, white 0%, #f8fafc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.02em;
+}
+.slogan { 
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem); 
+    opacity: 0.95; 
+    font-weight: 400;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* FORMULAIRE CENTRAL - GLASSMORPHISM */
+.search-box { 
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 24px; 
+    padding: 50px 40px; 
+    box-shadow: var(--shadow-lg);
+    margin: 40px auto;
+    border: 1px solid rgba(255,255,255,0.2);
+    animation: slideUp 0.6s ease-out;
+}
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.form-row { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr auto; 
+    gap: 20px; 
+    margin-bottom: 25px; 
+}
+.form-group { position: relative; }
+.form-group input, .form-group input[type="date"] { 
+    width: 100%; 
+    padding: 20px 24px; 
+    border: 2px solid #e5e7eb; 
+    border-radius: 16px; 
+    font-size: 16px;
+    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+    background: rgba(255,255,255,0.8);
+}
+.form-group input:focus { 
+    outline: none; 
+    border-color: var(--primary-blue); 
+    box-shadow: 0 0 0 4px rgba(30,64,175,0.1);
+    transform: translateY(-2px);
+}
+.btn-search { 
+    padding: 20px 32px; 
+    background: linear-gradient(135deg, var(--danger-red), #ef4444);
+    color: white; 
+    border: none; 
+    border-radius: 16px; 
+    font-size: 18px; 
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+    position: relative;
+    overflow: hidden;
+}
+.btn-search:hover { 
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(220,38,38,0.4);
+}
+.btn-search:active { transform: translateY(-1px); }
+
+/* RÉSULTATS CARDS MODERNES */
+.results { 
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 20px; 
+    padding: 40px; 
+    margin-top: 30px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.results h2 {
+    font-size: 1.8rem;
+    color: var(--primary-blue);
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.flight-card { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 25px;
+    border-radius: 16px;
+    background: white;
+    margin-bottom: 15px;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--success-green);
+}

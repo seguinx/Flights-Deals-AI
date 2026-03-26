@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trouve tes vols pas chers - JetPasCher </title>
+    
+    <!-- LIEN VERS TON CSS -->
+    <link rel="stylesheet" href="../static/global.css">
+    <link rel="stylesheet" href="../static/Acceuil.css">
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+   <header class="header">
+    <div class="logo-wrapper">
+        <img src="http://127.0.0.1:5000/static/Logo.png" 
+     alt="Logo JetPasCher" 
+     class="logo-img" width="150">
+        <h1 class="logo">JetPasCher</h1>
+    </div>
+    <p class="slogan">Les vols les moins chers, garantis</p>
+</header>
+
+             alt="Logo JetPasCher"
+             class="logo-img">
+        <h1 class="logo">JetPasCher</h1>
+    </div>
+    <p class="slogan">Les vols les moins chers, garantis</p>
+</header>
+        <!-- FORMULAIRE CENTRAL -->
+        <div class="search-box">
+            <form method="post" action="/chercher">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" name="depart" placeholder="Départ (YUL)" required value="{{ depart or '' }}">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="arrivee" placeholder="Arrivée (YYZ)" required value="{{ arrivee or '' }}">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="date" name="date_vol">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-search">🔍 Rechercher</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- RÉSULTATS -->
+       {% if vols and vols|length > 0 %}
+<div class="results">
+    <h2>{{ vols|length }} vols trouvés</h2>
+    {% for vol in vols[:3] %}
+    <div class="flight-card">
+        <div>
+            <strong>{{ vol.flight_iata or 'Vol non spécifié' }}</strong><br>
+            {% if vol.departure and vol.departure.scheduled %}
+                {{ vol.departure.scheduled }} → 
+            {% else %}
+                Horaire non dispo →
+            {% endif %}
+            {% if vol.arrival and vol.arrival.scheduled %}
+                {{ vol.arrival.scheduled }}
+            {% else %}
+                Horaire non dispo
+            {% endif %}
+        </div>
+        <div>
+            <div class="flight-price">$199</div>
+            <a href="https://aircanada.com" class="btn-book">Réserver</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="results">
+    <h2>Aucun vol trouvé pour {{ depart }} → {{ arrivee }}</h2>
+    <p>Essaie d'autres aéroports ou dates.</p>
+</div>
+{% endif %}
+
+    <div class="footer">
+        © 2026 JetPasCher  - Tous droits réservés
+    </div>
+</body>
+</html>

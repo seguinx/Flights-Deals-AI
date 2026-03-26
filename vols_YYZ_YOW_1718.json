@@ -1,0 +1,564 @@
+{
+  "pagination": {
+    "limit": 10,
+    "offset": 0,
+    "count": 10,
+    "total": 112
+  },
+  "data": [
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D33",
+        "delay": null,
+        "scheduled": "2026-03-24T22:10:00+00:00",
+        "estimated": "2026-03-24T22:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "18",
+        "baggage": "4",
+        "scheduled": "2026-03-24T23:18:00+00:00",
+        "delay": 10,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Canada",
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "flight": {
+        "number": "470",
+        "iata": "AC470",
+        "icao": "ACA470",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C05BD5"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2026-03-24T18:15:00+00:00",
+        "estimated": "2026-03-24T18:15:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-03-24T19:41:00+00:00",
+        "delay": 18,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "empty",
+        "iata": null,
+        "icao": null
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": null,
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D34",
+        "delay": null,
+        "scheduled": "2026-03-24T20:10:00+00:00",
+        "estimated": "2026-03-24T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "17",
+        "baggage": "4",
+        "scheduled": "2026-03-24T21:18:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "8243",
+        "iata": "UA8243",
+        "icao": "UAL8243",
+        "codeshared": {
+          "airline_name": "air canada",
+          "airline_iata": "ac",
+          "airline_icao": "aca",
+          "flight_number": "466",
+          "flight_iata": "ac466",
+          "flight_icao": "aca466"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C0671B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D34",
+        "delay": null,
+        "scheduled": "2026-03-24T20:10:00+00:00",
+        "estimated": "2026-03-24T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "17",
+        "baggage": "4",
+        "scheduled": "2026-03-24T21:18:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "8000",
+        "iata": "TP8000",
+        "icao": "TAP8000",
+        "codeshared": {
+          "airline_name": "air canada",
+          "airline_iata": "ac",
+          "airline_icao": "aca",
+          "flight_number": "466",
+          "flight_iata": "ac466",
+          "flight_icao": "aca466"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C0671B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D34",
+        "delay": null,
+        "scheduled": "2026-03-24T20:10:00+00:00",
+        "estimated": "2026-03-24T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "17",
+        "baggage": "4",
+        "scheduled": "2026-03-24T21:18:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Austrian",
+        "iata": "OS",
+        "icao": "AUA"
+      },
+      "flight": {
+        "number": "8330",
+        "iata": "OS8330",
+        "icao": "AUA8330",
+        "codeshared": {
+          "airline_name": "air canada",
+          "airline_iata": "ac",
+          "airline_icao": "aca",
+          "flight_number": "466",
+          "flight_iata": "ac466",
+          "flight_icao": "aca466"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C0671B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D34",
+        "delay": null,
+        "scheduled": "2026-03-24T20:10:00+00:00",
+        "estimated": "2026-03-24T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "17",
+        "baggage": "4",
+        "scheduled": "2026-03-24T21:18:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "SWISS",
+        "iata": "LX",
+        "icao": "SWR"
+      },
+      "flight": {
+        "number": "4681",
+        "iata": "LX4681",
+        "icao": "SWR4681",
+        "codeshared": {
+          "airline_name": "air canada",
+          "airline_iata": "ac",
+          "airline_icao": "aca",
+          "flight_number": "466",
+          "flight_iata": "ac466",
+          "flight_icao": "aca466"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C0671B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D34",
+        "delay": null,
+        "scheduled": "2026-03-24T20:10:00+00:00",
+        "estimated": "2026-03-24T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "17",
+        "baggage": "4",
+        "scheduled": "2026-03-24T21:18:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      },
+      "flight": {
+        "number": "6596",
+        "iata": "LH6596",
+        "icao": "DLH6596",
+        "codeshared": {
+          "airline_name": "air canada",
+          "airline_iata": "ac",
+          "airline_icao": "aca",
+          "flight_number": "466",
+          "flight_iata": "ac466",
+          "flight_icao": "aca466"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C0671B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D34",
+        "delay": null,
+        "scheduled": "2026-03-24T20:10:00+00:00",
+        "estimated": "2026-03-24T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "17",
+        "baggage": "4",
+        "scheduled": "2026-03-24T21:18:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Aer Lingus",
+        "iata": "EI",
+        "icao": "EIN"
+      },
+      "flight": {
+        "number": "8500",
+        "iata": "EI8500",
+        "icao": "EIN8500",
+        "codeshared": {
+          "airline_name": "air canada",
+          "airline_iata": "ac",
+          "airline_icao": "aca",
+          "flight_number": "466",
+          "flight_iata": "ac466",
+          "flight_icao": "aca466"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C0671B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D36",
+        "delay": null,
+        "scheduled": "2026-03-24T20:10:00+00:00",
+        "estimated": "2026-03-24T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "17",
+        "baggage": "4",
+        "scheduled": "2026-03-24T21:18:00+00:00",
+        "delay": 10,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Canada",
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "flight": {
+        "number": "466",
+        "iata": "AC466",
+        "icao": "ACA466",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C07966"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-03-24",
+      "flight_status": "cancelled",
+      "departure": {
+        "airport": "Lester B. Pearson International",
+        "timezone": "America/Toronto",
+        "iata": "YYZ",
+        "icao": "CYYZ",
+        "terminal": "1",
+        "gate": "D33",
+        "delay": null,
+        "scheduled": "2026-03-24T18:10:00+00:00",
+        "estimated": "2026-03-24T18:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Ottawa Macdonald-Cartier International",
+        "timezone": "America/Toronto",
+        "iata": "YOW",
+        "icao": "CYOW",
+        "terminal": null,
+        "gate": "16",
+        "baggage": "4",
+        "scheduled": "2026-03-24T19:18:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "SA AVIANCA",
+        "iata": "AV",
+        "icao": "AVA"
+      },
+      "flight": {
+        "number": "6914",
+        "iata": "AV6914",
+        "icao": "AVA6914",
+        "codeshared": {
+          "airline_name": "air canada",
+          "airline_iata": "ac",
+          "airline_icao": "aca",
+          "flight_number": "462",
+          "flight_iata": "ac462",
+          "flight_icao": "aca462"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "C030FD"
+      },
+      "live": null
+    }
+  ]
+}

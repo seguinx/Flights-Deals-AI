@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>{{ test }} - {{ vols|length|default(0) }} vols</h1>
+    {% for vol in vols %}
+        <p>{{ vol.flight_iata }}</p>
+    {% endfor %}
+</body>
+</html>
